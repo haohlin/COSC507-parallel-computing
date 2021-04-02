@@ -14,15 +14,6 @@
 		exit(1);												\
 	}															\
 }
-//****************************************************************************************************************
-// PARALLEL FUNCTIONS
-//****************************************************************************************************************
-	/*
-	TODO: 	Provide CUDA implementation for parallelizing the two SERIAL functions: convolution_8bits and convolution_32Bits
-			Make sure to check for errors from CUDA API calls and from Kernel Launch. 
-			Also, time your parallel code and compute the speed-up.
-	*/
-
 
 //****************************************************************************************************************
 // SERIAL FUNCTIONS
